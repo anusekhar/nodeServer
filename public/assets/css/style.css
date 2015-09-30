@@ -1,0 +1,83 @@
+header{
+  background-color: #E5E5E5;
+  display: flex;
+}
+.logo {
+  width: 144px;
+  height: 60px;
+  background-image: url("https://www.google.com/a/qburst.com/images/logo.gif?alpha=1&service=google_default");
+  background-size: cover;
+}
+.search-box{
+  height: 60px;
+  margin: 15px;
+}
+#searchBtn {
+ background-color: #4683EA;
+ height: 36px;
+ width: 50px;
+}
+.search-box button img {
+  width: 80%;
+}
+.search-box input {
+  width: 500px;
+  height: 30px;
+}
+ul {
+  margin: 0;
+  padding-left:0;
+}
+button {
+  margin-left: 30px;
+}
+.nav li {
+  list-style: none;
+  padding: 4px;
+  padding-left: 30px;
+}
+.nav li:hover {
+  background-color: grey;
+}
+.nav li:active {
+  color: orange;
+}
+
+.nav {
+  width: 15%;
+}
+.content {
+  position: absolute;
+  top: 100px;
+  background-color: #E5E5E5;
+  margin-left: 15%;
+  width: 75%;
+  overflow-x: hidden;
+}
+.content li {
+  list-style: none;
+  padding: 5px;
+  border-top: 1px solid #bbb;
+}
+.content li:last-child {
+  border-bottom: 1px solid #bbb;
+}
+li div {
+  display: inline;
+}
+.from{
+  padding-left: 50px;
+}
+.msg{
+  padding-left: 100px;
+}
+.time{
+  float: right;
+  padding-right: 50px;
+}
+.true {
+  color: yellow;
+}
+.false {
+  color: white;
+}

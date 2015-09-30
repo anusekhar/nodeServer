@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app = "myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Gmail</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src ="assets/lib/angular.min.js"></script>
+    <script type="text/javascript" src ="assets/lib/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src ="app/scripts/module.js"></script>
+    <script type="text/javascript" src ="app/scripts/route.js"></script>
+    <script type="text/javascript" src ="app/controller/homecontroller.js"></script>
+    <script type="text/javascript" src ="app/controller/inboxcontroller.js"></script>
+    <script type="text/javascript" src ="app/controller/sentcontroller.js"></script>
+    <script type="text/javascript" src ="app/controller/starredcontroller.js"></script>
+    <script type="text/javascript" src ="app/controller/draftscontroller.js"></script>
+    <script type="text/javascript" src ="app/service/service.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+      <div class="search-box">
+          <input type="text" name="name" value="">
+          <input id="searchBtn" type="button" name="name" value="search">
+      </div>
+      </header>
+
+
+      <div class = "nav">
+        <button type="button" name="button">Compose</button>
+        <ul>
+          <li ui-sref ="inbox">inbox</li>
+          <li ui-sref ="starred">starred</li>
+          <li ui-sref ="sent mail">sent mail</li>
+          <li ui-sref ="drafts">drafts</li>
+          <li>more</li>
+
+        </ul>
+      </div>
+      <div class="content">
+        <div ui-view></div>
+      </div>
+      <a href="/home">logout</a>
+  </body>
+</html>

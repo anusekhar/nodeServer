@@ -1,0 +1,72 @@
+{
+    "inbox" : [
+        {
+            "starred": false,
+            "important": "checked",
+            "from": "Gokul",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am",
+            "details":"Dear Friends,In  continuation to the earlier mail regarding police protection to convoy against the 24hrs strike declared by all Trade unions on 02-09-2015 (today),Technopark is  arranging evening convoy services to company vehicles.All employees are requested to assemble at the location specified below before the stipulated time  The details of evening convoy starting from Technopark are as follows."
+        },
+        {
+            "starred": true,
+            "important": "",
+            "from": "Syam",
+            "message": "Chakka Mela - For circulation",
+            "time": "9:52 am"
+        },
+        {
+            "starred": false,
+            "important": "checked",
+            "from": "Lavya",
+            "message": "Biriyani Mela - For circulation",
+            "time": "8:56 am"
+        }],
+
+        "sent": [
+        {
+            "starred": false,
+            "important": false,
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+        {
+            "starred": true,
+            "important": false,
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+        {
+            "starred": false,
+            "important": true,
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+        {
+            "starred": true,
+            "important": true,
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        }
+    ],
+    "drafts": [
+        {
+            "starred": false,
+            "important": false,
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+        {
+            "starred": true,
+            "important": false,
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        }
+    ]
+}

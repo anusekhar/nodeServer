@@ -1,0 +1,11 @@
+<div class="">
+  <div>
+        <li ng-repeat="inbox in inboxItems" >
+          <input type="checkbox">
+          <i class="glyphicon glyphicon-star-empty {{inbox.starred}}" ng-click="myfunction($index)"></i>
+          <div class="from">{{inbox.from}}</div>
+          <div class="msg">{{inbox.message}}</div>
+          <div class="time">{{inbox.time}}</div>
+        </li>
+    </div>
+</div>
